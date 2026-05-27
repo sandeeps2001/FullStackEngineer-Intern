@@ -1,0 +1,1 @@
+using a mqtt protocol like rabbit mq and then resolving the eroor one by one and creating a flag based on the level of critical bugs and solve them one by one based on the severiety 

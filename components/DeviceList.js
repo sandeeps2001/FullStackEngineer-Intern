@@ -9,7 +9,7 @@ export default function DeviceList() {
 
   let selectedId;
 
-  function handleDismiss() {
+  function handleDismiss(){
     alert("Dismissed: " + selectedId);
   }
 
@@ -35,7 +35,11 @@ export default function DeviceList() {
               }}
             >
               <span style={{ fontSize: "14px" }}>{device.name}</span>
-              <button onClick={handleDismiss}>Dismiss</button>
+              <button onClick={ ()=> 
+
+              }
+              selectedId = device.id;
+            }</div>{handleDismiss}>Dismiss</button>
             </div>
           );
         })}

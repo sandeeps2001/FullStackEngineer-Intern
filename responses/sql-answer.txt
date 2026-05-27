@@ -1,0 +1,1 @@
+select name , severity,message, created_at from devices  right join alerts on device_id where acknowledge ="false" and orderby create_at 
